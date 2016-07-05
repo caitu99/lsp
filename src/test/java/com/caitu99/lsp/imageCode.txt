@@ -1,0 +1,154 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/ForLoginsideTemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<link rel="stylesheet" rev="stylesheet" href="/icard/css/icard.css" type="text/css" media="screen" />
+<script language="JavaScript" src="/icard/js/jquery.js"></script>
+<script language="JavaScript" src="/icard/js/ajax-power.js"></script>
+<script language="JavaScript" src="/icard/js/common.js"></script>
+<script language="JavaScript" src="/icard/js/checkstyle.js"></script>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>
+上海浦东发展银行信用卡网银
+</title>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" -->
+<script language="JavaScript" type="text/javascript">
+/* 脚本编辑区域 */
+
+</script>
+<!-- InstanceEndEditable -->
+</head>
+<body onload="JavaScript:displayErr();zebarline();window.status=' '" >
+<div class="white">
+ 
+  <div id="head">
+    <div class="content-title"><!-- InstanceBeginEditable name="content-title" -->
+      积分查询
+      <!-- InstanceEndEditable --></div>
+    <div id="helpandclose"><img src="/icard/icardImageRead.do?CardImgPath=0052.jpg" /><!-- InstanceBeginEditable name="content-heloregion" --><!-- InstanceEndEditable --></div>
+  </div>
+  <div id="white" class="white">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table_comm" align="center">
+      <tr>
+        <td height="10" colspan="4" id="changtd"></td>
+      </tr>
+      <tr>
+        <td height="0" colspan="4" ><div id="errorbox">
+           
+          </div></td>
+      </tr>
+      <tr>
+        <td width="25%"  class="th20head">账户姓名</td>
+        <td width="25%"  class="th20head">今日日期</td>
+        <td width="25%"  class="th20head">卡型</td>
+        <td width="25%"  class="th20head">卡号</td>
+      </tr>
+      <tr>
+        <td  class="td20ce">陈勇文</td>
+        <td  class="td20ce">2016-04-11</td>
+        <td  class="td20ce">白金卡简约版</td>
+        <td  class="td20ce">***************9645</td>
+      </tr>
+    </table>
+    <div id="bwhite"> <!-- InstanceBeginEditable name="form-content" -->
+      <form action="rewardPointsQuery.do" method="post" name="form1">
+           <div class='main_title'><div class='main_title_left'><div class='main_title_left2'><div id='title'><span class='main_title_left2_logo'>当前位置：</span><span class='main_title_left2_content'>积分管理<span class='singleArrayIcon'></span>积分查询<span class='doubleArrayIcon'></span></span><span class='blodText'>积分查询</span></div><div class='addSc' onmouseout='hideScTip();' onmouseover='showScTip();' onClick="addQuickMenu('积分查询','rewardPointsQuery')"></div><div id='sctip' style='display:none'><div class='addscTip pointIconborder'></div><div class='tipContent'><div id='qucikMenuTip'>点击添加快捷菜单</div></div></div><script language='javascript' type='text/javascript'>$(document).ready(function(){switchTitle();});</script></div></div></div><input type='hidden' name='SelectedMenuId' value='menu5_1_1_1'/>
+<input type='hidden' name='ThirdLevelMenuName' value='积分查询'/>
+<input type='hidden' name='ThirdLevelMenuTransName' value='rewardPointsQuery'/>
+
+<div id=tabs><ul>
+<li class=tabslred><a  onmouseover="javascript:window.status='积分查询';return true;" onclick="javascript:window.status='积分查询';return true;" onmouseout="javascript:window.status='积分查询';return true;" href='#'><span>积分查询</span></a></li>
+</ul><div class='addStar' style='float: right;position: absolute;right: 0px;'><span>客户等级：银钻</span>&nbsp;&nbsp;<span>累积星数：0颗</span>&nbsp;&nbsp;&nbsp;<span><a href='queryUpgrade.do' style='font-size: small;font-weight: normal;'>更多讯息，请点击查看》》》</a></div></div>
+        <input type="hidden" name="_viewReferer" value="/rewards/RewardPointQueryRes"/>
+          <input  type="hidden" name="_locale"  value="zh_CN"/>
+        <table class="table_comm_noze" width="100%"  border="0" cellpadding="0" cellspacing="0" align="center">
+        
+      <tr>
+              <td  class="th20" width="40%">截止上一账单日期可用积分</td>
+              <td  class="td20left" width="60%">15670</td>
+      </tr>
+      <tr>
+        <td   class="th20">自上一账期起已兑换积分</td>
+        <td   class="td20left">0</td>
+      </tr>
+      <tr>
+        <td   class="th20">自上一账期起已增加积分</td>
+        <td   class="td20left">0</td>
+      </tr>
+      <tr>
+        <td   class="th20">自上一账期起已调整积分</td>
+        <td   class="td20left">0</td>
+      </tr>
+        <tr>
+        <td   class="th20">自上一账期起已赠送积分</td>
+        <td   class="td20left">0</td>
+      </tr>
+      <tr>
+        <td   class="th20">当前可用积分</td>
+        <td   class="td20left">15670</td>
+      </tr>   
+      
+        <!--上航日航联名卡积分查询-->
+       
+      
+        <tr>
+            <td height="10" colspan="2"></td>
+          </tr>
+          <tr>
+            <td id="cursor" colspan="2"></td>
+          </tr>
+          <tr>
+          </tr>
+         
+          <tr><td colspan="2">当前可用积分 = 截止上一账单日期可用积分 - 自上一账期起已兑换积分 + 自上一账期起已增加积分 + 自上一账期起已调整积分 + 自上一账期起已赠送积分</td></tr>
+      
+        </table>
+     
+      </form>
+      <!-- InstanceEndEditable -->
+      <table width="100%" border="0" cellspacing="0" cellpadding="0"  align="center">
+        <!-- InstanceBeginEditable name="remark" -->
+        <tr>
+          <td height="10"></td>
+        </tr>
+        <tr>
+          <td><hr />
+          </td>
+        </tr>
+        <tr>
+          <td class="remark">备注：
+            <br />
+           
+          </td>
+        </tr>
+        <!-- InstanceEndEditable -->
+      </table>
+    </div>
+    <div id="navBar-end">
+      <table width="100%" height="40" border="0" align="center" cellpadding="0" >
+    <tr>
+      <td align="left" style="padding-bottom:8px;"><a target="_blank" href="/icard/viewPrivacyRule.do"><font style="font-size:12px;">
+              上海浦东发展银行信用卡隐私条例
+              </font></a> <a target="_blank" href="/icard/viewImportantInformation.do"><font size="2">
+              读者重要资料
+              </font></a> </td>
+    </tr>
+    <tr>
+      <td  align="left"></td>
+ 
+    </tr>
+</table>
+    </div>
+  </div>
+</div>
+</body>
+<script language="javascript" type="text/javascript">
+initlogo();
+</script>
+<!-- InstanceBeginEditable name="footer" -->
+<script language="JavaScript" type="text/javascript">
+/* 初始化脚本 */
+
+</script>
+<!-- InstanceEndEditable -->
+
+<!-- InstanceEnd --></html>

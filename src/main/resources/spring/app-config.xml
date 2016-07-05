@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+
+    <bean id="placeholderConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations" value="classpath*:properties/**/*.properties"/>
+        <property name="fileEncoding" value="utf8"/>
+        <!--<property name="ignoreUnresolvablePlaceholders" value="true"/>-->
+    </bean>
+
+    <bean id="properties" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+        <property name="locations" value="classpath*:properties/**/*.properties" />
+        <property name="fileEncoding" value="utf8"/>
+    </bean>
+
+    <bean id="springContext" class="com.caitu99.lsp.utils.SpringContext"/>
+
+</beans>

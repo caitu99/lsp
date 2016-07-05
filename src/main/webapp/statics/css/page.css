@@ -1,0 +1,38 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+td{
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+    padding: 3px 15px;
+    text-align: left;
+    color: #3C3C3C;
+}
+
+#div_body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#result{
+margin-left: auto;
+margin-right: auto;
+}
+
+/*#formcss {*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*width: 50%;*/
+/*}*/
+
+.tablecss {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px cadetblue;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
